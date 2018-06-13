@@ -41,7 +41,7 @@
   color: color-link-hover;
 }
 .article .article-entry {
-  max-width: fit-content;
+/*max-width: fit-content;*/
   font-size: 18px;
   line-height: line-height;
   text-align: justify;

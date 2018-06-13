@@ -12,7 +12,7 @@
   }
   .mobile-header .title {
     font-size: 32px;
-/*line-height: 32px;*/
+    line-height: 32px;
     height: -webkit-fill-available;
     vertical-align: middle;
     color: #fff;
