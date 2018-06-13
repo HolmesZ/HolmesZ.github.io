@@ -158,7 +158,7 @@
 }
 @media mq-mobile {
   .sidebar {
-    left: -400px;
+    left: -150px;
     width: 150px;
     max-width: 100%;
     z-index: 9999999;

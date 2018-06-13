@@ -209,10 +209,10 @@ body {
   position: absolute;
   top: 0;
   right: 0;
-  left: 400px;
+  left: 250px;
   bottom: 0;
   height: 100%;
-  padding: 20px 40px 0;
+  padding: 30px 60px 0;
   overflow: auto;
   word-wrap: break-word;
 }
@@ -242,7 +242,7 @@ body {
   top: 0;
   left: 0;
   bottom: 0;
-  width: 400px;
+  width: 250px;
   height: 100%;
   overflow: hidden;
   background-color: #333;
@@ -397,8 +397,8 @@ body {
 }
 @media screen and (max-width: 768px) {
   .sidebar {
-    left: -400px;
-    width: 300px;
+/*left: -400px;*/
+    width: 150px;
     max-width: 100%;
     z-index: 9999999;
     transition-duration: 0.3s;
@@ -417,6 +417,7 @@ body {
   }
 }
 .article .article-header {
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 .article .article-header a {
@@ -458,7 +459,8 @@ body {
   color: #2ca831;
 }
 .article .article-entry {
-  font-size: 16px;
+/*max-width: fit-content;*/
+  font-size: 18px;
   line-height: 1.6em;
   text-align: justify;
 }
@@ -806,7 +808,7 @@ pre .javascript .function {
 @media screen and (max-width: 768px) {
   .mobile-header {
     display: block;
-    height: 45px;
+    height: 50px;
     color: #fff;
     text-align: right;
     background-color: #333;
@@ -815,6 +817,7 @@ pre .javascript .function {
   .mobile-header .title {
     font-size: 32px;
     line-height: 32px;
+    height: -webkit-fill-available;
     vertical-align: middle;
     color: #fff;
   }
@@ -826,12 +829,13 @@ pre .javascript .function {
     float: left;
     padding: 9px 5px;
     margin-top: 0px;
-    margin-right: 15px;
+    margin-right: 0px;
     margin-bottom: 0px;
     background-color: transparent;
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
+    height: -webkit-fill-available;
   }
   .mobile-header .sidebar-toggle:focus {
     outline: 0;
