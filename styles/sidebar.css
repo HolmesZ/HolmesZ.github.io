@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   bottom: 0;
-  width: 350px;
+  width: 250px;
   height: 100%;
   overflow: hidden;
   background-color: #333;
@@ -159,7 +159,7 @@
 @media mq-mobile {
   .sidebar {
     left: -400px;
-    width: 300px;
+    width: 150px;
     max-width: 100%;
     z-index: 9999999;
     transition-duration: 0.3s;
