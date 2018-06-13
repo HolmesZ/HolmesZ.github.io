@@ -4,7 +4,7 @@
 @media mq-mobile {
   .mobile-header {
     display: block;
-    height: 50px;
+    height: 45px;
     color: #fff;
     text-align: right;
     background-color: color-default;
@@ -12,8 +12,8 @@
   }
   .mobile-header .title {
     font-size: 32px;
-/*line-height: 32px;*/
-    height: -webkit-fill-available;
+    line-height: 32px;
+/*height: -webkit-fill-available;*/
     vertical-align: middle;
     color: #fff;
   }
@@ -31,7 +31,7 @@
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
-    height: -webkit-fill-available;
+/*height: -webkit-fill-available;*/
   }
   .mobile-header .sidebar-toggle:focus {
     outline: 0;

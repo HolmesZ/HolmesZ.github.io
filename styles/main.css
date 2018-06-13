@@ -397,7 +397,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   .sidebar {
-/*left: -400px;*/
+    left: -150px;
     width: 150px;
     max-width: 100%;
     z-index: 9999999;
@@ -808,7 +808,7 @@ pre .javascript .function {
 @media screen and (max-width: 768px) {
   .mobile-header {
     display: block;
-    height: 50px;
+    height: 45px;
     color: #fff;
     text-align: right;
     background-color: #333;
@@ -817,7 +817,7 @@ pre .javascript .function {
   .mobile-header .title {
     font-size: 32px;
     line-height: 32px;
-    height: -webkit-fill-available;
+/*height: -webkit-fill-available;*/
     vertical-align: middle;
     color: #fff;
   }
@@ -835,7 +835,7 @@ pre .javascript .function {
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
-    height: -webkit-fill-available;
+/*height: -webkit-fill-available;*/
   }
   .mobile-header .sidebar-toggle:focus {
     outline: 0;
