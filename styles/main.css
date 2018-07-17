@@ -461,7 +461,7 @@ body {
 .article .article-entry {
 /*max-width: fit-content;*/
   font-size: 18px;
-  line-height: 1.6em;
+  line-height: 1.7em;
   text-align: justify;
 }
 .article .article-entry code {
@@ -638,7 +638,7 @@ body {
   border-width: 1px 0;
   overflow: auto;
   color: #4d4d4c;
-  line-height: 22.400000000000002px;
+  line-height: 23.8px;
 }
 .article-entry .highlight .gutter pre,
 .article-entry .gist .gist-file .gist-data .line-numbers {
@@ -686,7 +686,7 @@ body {
   padding-right: 20px;
 }
 .article-entry .highlight .line {
-  height: 22.400000000000002px;
+  height: 23.8px;
 }
 .article-entry .gist {
   margin: 0 -20px;
